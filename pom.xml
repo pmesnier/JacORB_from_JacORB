@@ -34,7 +34,7 @@
 
     <groupId>org.jacorb</groupId>
     <artifactId>jacorb-parent</artifactId>
-    <version>3.2</version>
+    <version>3.3beta</version>
     <packaging>pom</packaging>
 
     <name>JacORB</name>
@@ -296,15 +296,6 @@
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>build-helper-maven-plugin</artifactId>
                     <version>1.7</version>
-                    <executions>
-                        <execution>
-                            <id>attach-sources</id>
-                            <phase>prepare-package</phase>
-                            <goals>
-                                <goal>add-source</goal>
-                            </goals>
-                        </execution>
-                    </executions>
                 </plugin>
 
             </plugins>
